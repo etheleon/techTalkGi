@@ -1,0 +1,77 @@
+---
+title       : Introduction to Version Control System (VCS)
+subtitle    : GIT
+author      : Wesley GOI
+job         : Doctoral Candidate (Bioinformatics)
+framework   : shower        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      #
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+--- .cover #Cover
+
+# Version Control
+![cover](./images/KeepCalm.png)
+##
+
+--- 
+
+## Objective of today's talk
+
+1. Appreciation of version revisions
+2. Storage vs collaboration: Branching and Merging
+3. Types of VCS: Similarities and Differences
+4. Distributed eg. GIT
+
+--- 
+
+## Why use Version Control 
+
+1. Work parallel
+3. Update project to the latest version
+2. Backtrack
+4. List changes and their details
+5. Version control is a safety net
+
+--- 
+
+## 1. Working in parallel
+![width](./images/parallel.jpg)
+---
+
+## 2. Update to latest
+![width](./images/newest.jpg)
+---
+
+## 3. Backtracking
+
+---
+
+## 4. List changes and their details
+
+* GIT Blame
+
+---
+
+## 5. A safety net
+
+---
+
+
+## Branching and merging
+
+---
+## Available VCSs
+
+---
+## Distributed VCSs
+
+---
+Bsic history: Linus 
+
+---
+## Git is not Github
+![width](./images/)
+
+---
