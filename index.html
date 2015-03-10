@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Introduction to Version Control System (VCS)</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Introduction to Version Control System (VCS)">
+	<meta name="author" content="Wesley GOI">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
+</head>
+<body class="list">
+  <header class="caption">
+  	<h1>Introduction to Version Control System (VCS)</h1>
+	</header>
+  <section class="slide cover" id="Cover">
+  <div>
+    <h2></h2>
+    <p><img src="./images/KeepCalm.png" alt="cover"></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-2">
+  <div>
+    <h2>Objective of today&#39;s talk</h2>
+    <ol>
+<li>Appreciation of version revisions</li>
+<li>Storage vs collaboration: Branching and Merging</li>
+<li>Types of VCS: Similarities and Differences</li>
+<li>Distributed eg. GIT</li>
+</ol>
+
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>VersionControl: <strong>ADVANTAGES</strong></h2>
+    <ol>
+<li>Work parallel</li>
+<li>Update project to the latest version</li>
+<li>Backtrack</li>
+<li>List changes and their details</li>
+<li>Version control is a safety net</li>
+</ol>
+
+  </div>
+</section>
+<section class="slide cover w" id="slide-4">
+  <div>
+    <h2>VersionControl: <strong>DISADVANTAGES</strong></h2>
+    <p><img src="./images/terminal.png" alt="width"></p>
+
+  </div>
+</section>
+<section class="slide cover w" id="slide-5">
+  <div>
+    <h2></h2>
+    <p><img src="./images/terminal_white.png" alt="width"></p>
+
+<ul>
+<li>Moderate learning curve</li>
+<li>Ability to work with Command Line Interfaces (CLI)</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide cover w" id="slide-6">
+  <div>
+    <h2>Advantages</h2>
+    <ul>
+<li>Working <strong>concurrently</strong>
+<img src="https://talks.golang.org/2012/waza/gophercomplex1.jpg" alt="width"></li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-7">
+  <div>
+    <h2>Have the Latest version</h2>
+    <pre><code class="r">$ git pull git@github.com:arduino/Arduino.git
+</code></pre>
+
+<p><img src="./images/newest.png" alt="height"></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-8">
+  <div>
+    <h2>Advantages Backtracking</h2>
+    <p><img src="./images/blame.png" alt="height"></p>
+
+  </div>
+</section>
+<section class="slide shout" id="slide-9">
+  <div>
+    <h2>LIVE DEMO</h2>
+    
+  </div>
+</section>
+<section class="slide " id="slide-10">
+  <div>
+    <h2>Advantages: A safety net</h2>
+    <ul>
+<li>Dropbox only saves up to 5 revisions from the latest version</li>
+<li>No save messages (end up relying on file names)</li>
+<li>works even if you move the file to different folder and rename the file</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide cover" id="slide-11">
+  <div>
+    <h2>Branching and merging</h2>
+    <p><img src="http://nvie.com/img/git-model@2x.png" alt="height"></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-12">
+  <div>
+    <h2>Available VCSs</h2>
+    <ul>
+<li>SVN</li>
+<li>Mercurial</li>
+<li>GIT</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-13">
+  <div>
+    <h2>GIT Distributed VCSs</h2>
+    <ul>
+<li>Gives you the ability to work concurrently and prevents locking. </li>
+<li>Each user has a full copy of the repository</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-14">
+  <div>
+    <h2>Git is not Github</h2>
+    <p><img src="./images/gitNTgithub.png" alt="width"></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-15">
+  <div>
+    <h2>Git is not Github</h2>
+    <ul>
+<li>Github serves many purposes
+
+<ul>
+<li>central dump </li>
+<li>Wikipedia</li>
+<li>Issues Submission</li>
+</ul></li>
+<li>Friendly for code sharing esp open source projects and collaborations (FORKING)</li>
+</ul>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>

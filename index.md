@@ -56,7 +56,8 @@ knit        : slidify::knit2slides
 
 ## Have the Latest version
 
-```{r eval=FALSE}
+
+```r
 $ git pull git@github.com:arduino/Arduino.git
 ```
 
