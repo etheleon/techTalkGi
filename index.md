@@ -50,7 +50,7 @@ knit        : slidify::knit2slides
 ## Advantages 
 
 * Working **concurrently**
-![width](https://talks.golang.org/2012/waza/gophercomplex1.jpg)
+![width](./images/gopher.jpg)
 
 ---
 
