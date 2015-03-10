@@ -36,11 +36,11 @@ knit        : slidify::knit2slides
 --- .cover .w 
 ## VersionControl: **DISADVANTAGES**
 
-![width](./images/terminal.png)
+![width](./images/Terminal.png)
 
 --- .cover .w 
 
-![width](./images/terminal_white.png)
+![width](./images/Terminal_white.png)
 
 * Moderate learning curve
 * Ability to work with Command Line Interfaces (CLI)
