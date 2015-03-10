@@ -14,6 +14,10 @@ knit        : slidify::knit2slides
 
 ![cover](./images/KeepCalm.png)
 
+--- .cover .h
+
+![cover](./images/notFinal.gif)
+
 ---
 
 ## Objective of today's talk
