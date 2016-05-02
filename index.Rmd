@@ -9,6 +9,7 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
+---
 
 --- .cover #Cover
 
@@ -25,6 +26,7 @@ knit        : slidify::knit2slides
 1. Appreciation of version revisions
 2. Storage vs collaboration: Branching and Merging
 3. Types of VCS: Similarities and Differences
+4. Centralised eg. Subversion aka SVN
 4. Distributed eg. GIT
 
 --- 
@@ -36,18 +38,6 @@ knit        : slidify::knit2slides
 2. Backtrack
 4. List changes and their details
 5. Version control is a safety net
-
---- .cover .w 
-## VersionControl: **DISADVANTAGES**
-
-![width](./images/Terminal.png)
-
---- .cover .w 
-
-![width](./images/Terminal_white.png)
-
-* Moderate learning curve
-* Ability to work with Command Line Interfaces (CLI)
 
 --- .cover .w
 
@@ -72,8 +62,6 @@ $ git pull git@github.com:arduino/Arduino.git
 
 ![height](./images/blame.png)
 
---- .shout
-## LIVE DEMO
 
 ---
 
@@ -83,21 +71,68 @@ $ git pull git@github.com:arduino/Arduino.git
 * No save messages (end up relying on file names)
 * works even if you move the file to different folder and rename the file
 
+---
+## Available VCSs
+
+* SVN (Today)
+* Mercurial
+* GIT
+
+---
+
+## SVN: Centralised Version Control System
+
+<img src="./images/Central.png" style="height:70vh"></img>
+
+---
+
+## Working with SVN
+
+* Commad line interfce 
+* GUI (Focus for today)
+* Official SVN website: https://subversion.apache.org
+
+---
+
+
+## Workflow
+
+<img src="./images/workflow.png" style="height:40vh"></img>
+
+---
+
+## DEMO part1: working locally
+
+1. Create Repo
+2. Checkout
+3. Add Files
+4. Status
+5. Merge Conflicts
+6. ignore filetypes
+7. tagging and branching
+8. merging branches
+
+
+---
+
+## Starting A REPO: GUI
+
+![twoREPOs](./images/twoRepos.png)
+
+
+
 --- .cover
 
 ## Branching and merging
 
 ![height](http://nvie.com/img/git-model@2x.png)
 
+---
+
+## DEMO part2: working with servers
 
 ---
-## Available VCSs
 
-* SVN
-* Mercurial
-* GIT
-
----
 ## GIT Distributed VCSs
 
 * Gives you the ability to work concurrently and prevents locking. 
