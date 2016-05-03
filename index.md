@@ -82,7 +82,7 @@ $ git pull git@github.com:arduino/Arduino.git
 
 ## SVN: Centralised Version Control System
 
-<img src="./images/Central.png" style="height:70vh"></img>
+<img src="images/Central.png" style="height:70vh"></img>
 
 ---
 
@@ -97,7 +97,7 @@ $ git pull git@github.com:arduino/Arduino.git
 
 ## Workflow
 
-<img src="./images/workflow.png" style="height:40vh"></img>
+<img src="images/workflow.png" style="height:40vh"></img>
 
 ---
 
