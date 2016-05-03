@@ -1,6 +1,6 @@
 ---
 title       : Introduction to Version Control System (VCS)
-subtitle    : GIT
+subtitle    : SVN
 author      : Wesley GOI
 job         : Doctoral Candidate (Bioinformatics)
 framework   : shower        # {io2012, html5slides, shower, dzslides, ...}
@@ -9,6 +9,7 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
+
 --- .cover #Cover
 
 ![cover](./images/KeepCalm.png)
