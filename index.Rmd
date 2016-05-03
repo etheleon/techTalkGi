@@ -116,6 +116,11 @@ $ git pull git@github.com:arduino/Arduino.git
 
 ## Starting A REPO: GUI
 
+1. Create folder
+2. right-click -> tortoiseSVN -> create repository here
+    a. with folder structure (trunk/branch/tags)
+
+
 ![twoREPOs](./images/twoRepos.png)
 
 
